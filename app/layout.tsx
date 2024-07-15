@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Globals from "@/modules/Globals";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,6 +17,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link
+          href={`${Globals.BASE_URL}assets/css/main.min.css`}
+          rel="stylesheet"
+          
+        />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );

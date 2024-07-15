@@ -1,0 +1,19 @@
+@import "_partials/variables";
+
+
+
+body {
+    background: rgb(0, 0, 0);
+}
+
+
+@import "./locals/menu-component.scss";
+// @import "./locals/banner-component.scss";
+@import "./locals/cta-btn.scss";
+// @import "./locals/services-section.scss";
+// @import "./locals/home.scss";
+// @import "./locals/cta-banner-component.scss";
+// @import "./locals/previous-works-component.scss";
+// @import "./locals/embla.scss";
+// @import "./locals/download-catelogue.scss";
+// @import "./locals/footer.scss";
