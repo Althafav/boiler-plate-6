@@ -30,7 +30,7 @@ export default function MenuComponent() {
                     </div>
                 </ul>
 
-                <div className="menu-icon-wrapper d-lg-none d-block" onClick={handleToggle}>
+                <div className="menu-icon-wrapper lg:hidden block" onClick={handleToggle}>
                     {isToggle ? <IoMdClose size={32} color='white' cursor="pointer" /> : <HiOutlineMenuAlt2 size={32} color='white' cursor="pointer" />}
 
                 </div>
